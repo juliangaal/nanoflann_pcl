@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Catch2TestRun name="real_benchmark_insertion" rng-seed="2250014391" catch2-version="3.1.1">
+  <TestCase name="cloud_0601 3.7k" tags="[insertion]" filename="/home/julian/documents/nanoflann-release/benchmark/real/benchmark_insertion.cpp" line="9">
+    <BenchmarkResults name="flann tree insertion" samples="10" resamples="100000" iterations="1" clockResolution="18.1827" estimatedDuration="4.24163e+06">
+      <!-- All values in nano seconds -->
+      <mean value="417477" lowerBound="413716" upperBound="422697" ci="0.95"/>
+      <standardDeviation value="7113.28" lowerBound="4931.63" upperBound="9196.68" ci="0.95"/>
+      <outliers variance="0.09" lowMild="0" lowSevere="0" highMild="0" highSevere="0"/>
+    </BenchmarkResults>
+    <BenchmarkResults name="nanoflann tree insertion" samples="10" resamples="100000" iterations="1" clockResolution="18.1827" estimatedDuration="3.18343e+06">
+      <!-- All values in nano seconds -->
+      <mean value="314213" lowerBound="309599" upperBound="325513" ci="0.95"/>
+      <standardDeviation value="11047.1" lowerBound="3402.64" upperBound="18561.2" ci="0.95"/>
+      <outliers variance="0.09" lowMild="0" lowSevere="0" highMild="0" highSevere="1"/>
+    </BenchmarkResults>
+    <OverallResult success="true"/>
+  </TestCase>
+  <TestCase name="cloud_0422 9.7k" tags="[insertion]" filename="/home/julian/documents/nanoflann-release/benchmark/real/benchmark_insertion.cpp" line="26">
+    <BenchmarkResults name="flann tree insertion" samples="10" resamples="100000" iterations="1" clockResolution="18.1827" estimatedDuration="1.05683e+07">
+      <!-- All values in nano seconds -->
+      <mean value="1.06278e+06" lowerBound="1.04121e+06" upperBound="1.10982e+06" ci="0.95"/>
+      <standardDeviation value="48485.5" lowerBound="12499.5" upperBound="75649.2" ci="0.95"/>
+      <outliers variance="0.0924927" lowMild="0" lowSevere="0" highMild="1" highSevere="1"/>
+    </BenchmarkResults>
+    <BenchmarkResults name="nanoflann tree insertion" samples="10" resamples="100000" iterations="1" clockResolution="18.1827" estimatedDuration="7.76433e+06">
+      <!-- All values in nano seconds -->
+      <mean value="776414" lowerBound="769234" upperBound="790270" ci="0.95"/>
+      <standardDeviation value="15559.2" lowerBound="7726.9" upperBound="24158.4" ci="0.95"/>
+      <outliers variance="0.09" lowMild="1" lowSevere="0" highMild="1" highSevere="1"/>
+    </BenchmarkResults>
+    <OverallResult success="true"/>
+  </TestCase>
+  <TestCase name="cloud_0043 13k" tags="[insertion]" filename="/home/julian/documents/nanoflann-release/benchmark/real/benchmark_insertion.cpp" line="43">
+    <BenchmarkResults name="flann tree insertion" samples="10" resamples="100000" iterations="1" clockResolution="18.1827" estimatedDuration="1.44393e+07">
+      <!-- All values in nano seconds -->
+      <mean value="1.48485e+06" lowerBound="1.45387e+06" upperBound="1.55842e+06" ci="0.95"/>
+      <standardDeviation value="72690.7" lowerBound="29618.2" upperBound="117913" ci="0.95"/>
+      <outliers variance="0.0934803" lowMild="0" lowSevere="0" highMild="0" highSevere="1"/>
+    </BenchmarkResults>
+    <BenchmarkResults name="nanoflann tree insertion" samples="10" resamples="100000" iterations="1" clockResolution="18.1827" estimatedDuration="1.10698e+07">
+      <!-- All values in nano seconds -->
+      <mean value="1.10457e+06" lowerBound="1.09471e+06" upperBound="1.12119e+06" ci="0.95"/>
+      <standardDeviation value="20597.7" lowerBound="10730.5" upperBound="30199.9" ci="0.95"/>
+      <outliers variance="0.09" lowMild="0" lowSevere="1" highMild="0" highSevere="2"/>
+    </BenchmarkResults>
+    <OverallResult success="true"/>
+  </TestCase>
+  <TestCase name="cloud_0368 18.8k" tags="[insertion]" filename="/home/julian/documents/nanoflann-release/benchmark/real/benchmark_insertion.cpp" line="60">
+    <BenchmarkResults name="flann tree insertion" samples="10" resamples="100000" iterations="1" clockResolution="18.1827" estimatedDuration="2.1293e+07">
+      <!-- All values in nano seconds -->
+      <mean value="2.12193e+06" lowerBound="2.11074e+06" upperBound="2.13921e+06" ci="0.95"/>
+      <standardDeviation value="22142.7" lowerBound="10961.1" upperBound="33975.5" ci="0.95"/>
+      <outliers variance="0.09" lowMild="0" lowSevere="1" highMild="0" highSevere="2"/>
+    </BenchmarkResults>
+    <BenchmarkResults name="nanoflann tree insertion" samples="10" resamples="100000" iterations="1" clockResolution="18.1827" estimatedDuration="1.60884e+07">
+      <!-- All values in nano seconds -->
+      <mean value="1.60147e+06" lowerBound="1.59621e+06" upperBound="1.61059e+06" ci="0.95"/>
+      <standardDeviation value="10900.1" lowerBound="3696.25" upperBound="14502" ci="0.95"/>
+      <outliers variance="0.09" lowMild="0" lowSevere="0" highMild="2" highSevere="0"/>
+    </BenchmarkResults>
+    <OverallResult success="true"/>
+  </TestCase>
+  <TestCase name="carpark 52k" tags="[insertion]" filename="/home/julian/documents/nanoflann-release/benchmark/real/benchmark_insertion.cpp" line="77">
+    <BenchmarkResults name="flann tree insertion" samples="10" resamples="100000" iterations="1" clockResolution="18.1827" estimatedDuration="7.45923e+07">
+      <!-- All values in nano seconds -->
+      <mean value="7.4444e+06" lowerBound="7.39733e+06" upperBound="7.52503e+06" ci="0.95"/>
+      <standardDeviation value="97787.4" lowerBound="50364.6" upperBound="157593" ci="0.95"/>
+      <outliers variance="0.09" lowMild="0" lowSevere="0" highMild="1" highSevere="0"/>
+    </BenchmarkResults>
+    <BenchmarkResults name="nanoflann tree insertion" samples="10" resamples="100000" iterations="1" clockResolution="18.1827" estimatedDuration="5.8725e+07">
+      <!-- All values in nano seconds -->
+      <mean value="5.8508e+06" lowerBound="5.82716e+06" upperBound="5.88512e+06" ci="0.95"/>
+      <standardDeviation value="45524.9" lowerBound="25482" upperBound="61980.4" ci="0.95"/>
+      <outliers variance="0.09" lowMild="0" lowSevere="0" highMild="1" highSevere="0"/>
+    </BenchmarkResults>
+    <OverallResult success="true"/>
+  </TestCase>
+  <TestCase name="bunny 40k" tags="[insertion]" filename="/home/julian/documents/nanoflann-release/benchmark/real/benchmark_insertion.cpp" line="94">
+    <BenchmarkResults name="flann tree insertion" samples="10" resamples="100000" iterations="1" clockResolution="18.1827" estimatedDuration="4.26966e+07">
+      <!-- All values in nano seconds -->
+      <mean value="4.25128e+06" lowerBound="4.23258e+06" upperBound="4.27689e+06" ci="0.95"/>
+      <standardDeviation value="35170.6" lowerBound="24190.2" upperBound="49851.7" ci="0.95"/>
+      <outliers variance="0.09" lowMild="0" lowSevere="0" highMild="0" highSevere="0"/>
+    </BenchmarkResults>
+    <BenchmarkResults name="nanoflann tree insertion" samples="10" resamples="100000" iterations="1" clockResolution="18.1827" estimatedDuration="3.29858e+07">
+      <!-- All values in nano seconds -->
+      <mean value="3.219e+06" lowerBound="3.21494e+06" upperBound="3.2283e+06" ci="0.95"/>
+      <standardDeviation value="9502.08" lowerBound="3708.47" upperBound="15587.5" ci="0.95"/>
+      <outliers variance="0.09" lowMild="0" lowSevere="0" highMild="0" highSevere="1"/>
+    </BenchmarkResults>
+    <OverallResult success="true"/>
+  </TestCase>
+  <TestCase name="scan_006 560k" tags="[insertion]" filename="/home/julian/documents/nanoflann-release/benchmark/real/benchmark_insertion.cpp" line="111">
+    <BenchmarkResults name="flann tree insertion" samples="10" resamples="100000" iterations="1" clockResolution="18.1827" estimatedDuration="1.01535e+09">
+      <!-- All values in nano seconds -->
+      <mean value="9.35119e+07" lowerBound="9.26135e+07" upperBound="9.43309e+07" ci="0.95"/>
+      <standardDeviation value="1.3989e+06" lowerBound="1.08831e+06" upperBound="1.73236e+06" ci="0.95"/>
+      <outliers variance="0.09" lowMild="0" lowSevere="0" highMild="0" highSevere="0"/>
+    </BenchmarkResults>
+    <BenchmarkResults name="nanoflann tree insertion" samples="10" resamples="100000" iterations="1" clockResolution="18.1827" estimatedDuration="7.32567e+08">
+      <!-- All values in nano seconds -->
+      <mean value="7.40975e+07" lowerBound="7.34905e+07" upperBound="7.56701e+07" ci="0.95"/>
+      <standardDeviation value="1.48065e+06" lowerBound="541198" upperBound="2.43799e+06" ci="0.95"/>
+      <outliers variance="0.09" lowMild="0" lowSevere="0" highMild="0" highSevere="1"/>
+    </BenchmarkResults>
+    <OverallResult success="true"/>
+  </TestCase>
+  <TestCase name="scan_007 825k" tags="[insertion]" filename="/home/julian/documents/nanoflann-release/benchmark/real/benchmark_insertion.cpp" line="128">
+    <BenchmarkResults name="flann tree insertion" samples="10" resamples="100000" iterations="1" clockResolution="18.1827" estimatedDuration="1.59743e+09">
+      <!-- All values in nano seconds -->
+      <mean value="1.54647e+08" lowerBound="1.53581e+08" upperBound="1.55983e+08" ci="0.95"/>
+      <standardDeviation value="1.93568e+06" lowerBound="1.41364e+06" upperBound="2.52834e+06" ci="0.95"/>
+      <outliers variance="0.09" lowMild="0" lowSevere="0" highMild="0" highSevere="0"/>
+    </BenchmarkResults>
+    <BenchmarkResults name="nanoflann tree insertion" samples="10" resamples="100000" iterations="1" clockResolution="18.1827" estimatedDuration="1.19698e+09">
+      <!-- All values in nano seconds -->
+      <mean value="1.1864e+08" lowerBound="1.17824e+08" upperBound="1.19477e+08" ci="0.95"/>
+      <standardDeviation value="1.33667e+06" lowerBound="1.08631e+06" upperBound="1.66307e+06" ci="0.95"/>
+      <outliers variance="0.09" lowMild="0" lowSevere="0" highMild="0" highSevere="0"/>
+    </BenchmarkResults>
+    <OverallResult success="true">
+      <StdOut>
+825690
+      </StdOut>
+    </OverallResult>
+  </TestCase>
+  <OverallResults successes="0" failures="0" expectedFailures="0"/>
+  <OverallResultsCases successes="8" failures="0" expectedFailures="0"/>
+</Catch2TestRun>

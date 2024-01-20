@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Catch2TestRun name="benchmark_radius_search" rng-seed="1750033373" catch2-version="3.1.1">
+  <TestCase name="Radius search" tags="[radius]" filename="/home/julian/documents/nanoflann-release/benchmark/benchmark_radius_search.cpp" line="11">
+    <BenchmarkResults name="flann radius search" samples="1000" resamples="100000" iterations="13" clockResolution="17.5357" estimatedDuration="1.7823e+07">
+      <!-- All values in nano seconds -->
+      <mean value="1371.09" lowerBound="1366.65" upperBound="1378.31" ci="0.95"/>
+      <standardDeviation value="89.461" lowerBound="62.2679" upperBound="125.683" ci="0.95"/>
+      <outliers variance="0.941722" lowMild="1" lowSevere="0" highMild="0" highSevere="14"/>
+    </BenchmarkResults>
+    <BenchmarkResults name="nanoflann radius search" samples="1000" resamples="100000" iterations="123" clockResolution="17.5357" estimatedDuration="1.7466e+07">
+      <!-- All values in nano seconds -->
+      <mean value="144.191" lowerBound="142.748" upperBound="145.96" ci="0.95"/>
+      <standardDeviation value="25.6148" lowerBound="22.1449" upperBound="29.7349" ci="0.95"/>
+      <outliers variance="0.992512" lowMild="216" lowSevere="0" highMild="0" highSevere="160"/>
+    </BenchmarkResults>
+    <OverallResult success="true"/>
+  </TestCase>
+  <TestCase name="Radius search 10" tags="[radius]" filename="/home/julian/documents/nanoflann-release/benchmark/benchmark_radius_search.cpp" line="34">
+    <BenchmarkResults name="flann radius search" samples="1000" resamples="100000" iterations="13" clockResolution="17.5357" estimatedDuration="1.8239e+07">
+      <!-- All values in nano seconds -->
+      <mean value="1421.64" lowerBound="1413.78" upperBound="1432.95" ci="0.95"/>
+      <standardDeviation value="150.456" lowerBound="116.471" upperBound="194.969" ci="0.95"/>
+      <outliers variance="0.977663" lowMild="0" lowSevere="0" highMild="8" highSevere="37"/>
+    </BenchmarkResults>
+    <BenchmarkResults name="nanoflann radius search" samples="1000" resamples="100000" iterations="126" clockResolution="17.5357" estimatedDuration="1.7514e+07">
+      <!-- All values in nano seconds -->
+      <mean value="139.778" lowerBound="139.494" upperBound="140.404" ci="0.95"/>
+      <standardDeviation value="6.44037" lowerBound="3.66941" upperBound="11.5113" ci="0.95"/>
+      <outliers variance="0.889104" lowMild="1" lowSevere="0" highMild="11" highSevere="31"/>
+    </BenchmarkResults>
+    <OverallResult success="true"/>
+  </TestCase>
+  <TestCase name="Radius search 20" tags="[radius]" filename="/home/julian/documents/nanoflann-release/benchmark/benchmark_radius_search.cpp" line="57">
+    <BenchmarkResults name="flann radius search" samples="1000" resamples="100000" iterations="13" clockResolution="17.5357" estimatedDuration="1.8941e+07">
+      <!-- All values in nano seconds -->
+      <mean value="1406.61" lowerBound="1404.46" upperBound="1413.02" ci="0.95"/>
+      <standardDeviation value="54.3339" lowerBound="20.7693" upperBound="120.025" ci="0.95"/>
+      <outliers variance="0.848327" lowMild="28" lowSevere="1" highMild="4" highSevere="7"/>
+    </BenchmarkResults>
+    <BenchmarkResults name="nanoflann radius search" samples="1000" resamples="100000" iterations="124" clockResolution="17.5357" estimatedDuration="1.7484e+07">
+      <!-- All values in nano seconds -->
+      <mean value="139.904" lowerBound="139.736" upperBound="140.291" ci="0.95"/>
+      <standardDeviation value="3.872" lowerBound="1.72892" upperBound="6.81033" ci="0.95"/>
+      <outliers variance="0.740464" lowMild="0" lowSevere="140" highMild="0" highSevere="195"/>
+    </BenchmarkResults>
+    <OverallResult success="true"/>
+  </TestCase>
+  <TestCase name="Radius search 30" tags="[radius]" filename="/home/julian/documents/nanoflann-release/benchmark/benchmark_radius_search.cpp" line="80">
+    <BenchmarkResults name="flann radius search" samples="1000" resamples="100000" iterations="12" clockResolution="17.5357" estimatedDuration="1.8636e+07">
+      <!-- All values in nano seconds -->
+      <mean value="1549.61" lowerBound="1546.27" upperBound="1556.54" ci="0.95"/>
+      <standardDeviation value="74.618" lowerBound="44.9522" upperBound="132.378" ci="0.95"/>
+      <outliers variance="0.897505" lowMild="2" lowSevere="0" highMild="2" highSevere="11"/>
+    </BenchmarkResults>
+    <BenchmarkResults name="nanoflann radius search" samples="1000" resamples="100000" iterations="66" clockResolution="17.5357" estimatedDuration="1.7754e+07">
+      <!-- All values in nano seconds -->
+      <mean value="268.577" lowerBound="268.245" upperBound="269.302" ci="0.95"/>
+      <standardDeviation value="7.55668" lowerBound="3.64484" upperBound="13.1378" ci="0.95"/>
+      <outliers variance="0.746659" lowMild="0" lowSevere="0" highMild="0" highSevere="8"/>
+    </BenchmarkResults>
+    <OverallResult success="true"/>
+  </TestCase>
+  <TestCase name="Radius search 40" tags="[radius]" filename="/home/julian/documents/nanoflann-release/benchmark/benchmark_radius_search.cpp" line="103">
+    <BenchmarkResults name="flann radius search" samples="1000" resamples="100000" iterations="12" clockResolution="17.5357" estimatedDuration="1.8696e+07">
+      <!-- All values in nano seconds -->
+      <mean value="1563.5" lowerBound="1558.76" upperBound="1571.47" ci="0.95"/>
+      <standardDeviation value="97.0914" lowerBound="66.6427" upperBound="142.731" ci="0.95"/>
+      <outliers variance="0.935427" lowMild="8" lowSevere="0" highMild="11" highSevere="14"/>
+    </BenchmarkResults>
+    <BenchmarkResults name="nanoflann radius search" samples="1000" resamples="100000" iterations="66" clockResolution="17.5357" estimatedDuration="1.7754e+07">
+      <!-- All values in nano seconds -->
+      <mean value="268.968" lowerBound="268.018" upperBound="270.535" ci="0.95"/>
+      <standardDeviation value="19.2188" lowerBound="13.5823" upperBound="27.81" ci="0.95"/>
+      <outliers variance="0.951215" lowMild="93" lowSevere="0" highMild="11" highSevere="32"/>
+    </BenchmarkResults>
+    <OverallResult success="true"/>
+  </TestCase>
+  <TestCase name="Radius search 50" tags="[radius]" filename="/home/julian/documents/nanoflann-release/benchmark/benchmark_radius_search.cpp" line="126">
+    <BenchmarkResults name="flann radius search" samples="1000" resamples="100000" iterations="12" clockResolution="17.5357" estimatedDuration="1.8744e+07">
+      <!-- All values in nano seconds -->
+      <mean value="1571.3" lowerBound="1564.82" upperBound="1583.48" ci="0.95"/>
+      <standardDeviation value="137.881" lowerBound="87.9102" upperBound="220.597" ci="0.95"/>
+      <outliers variance="0.967095" lowMild="1" lowSevere="0" highMild="2" highSevere="15"/>
+    </BenchmarkResults>
+    <BenchmarkResults name="nanoflann radius search" samples="1000" resamples="100000" iterations="64" clockResolution="17.5357" estimatedDuration="1.7536e+07">
+      <!-- All values in nano seconds -->
+      <mean value="274.799" lowerBound="274.128" upperBound="276.028" ci="0.95"/>
+      <standardDeviation value="14.1159" lowerBound="9.05133" upperBound="22.3661" ci="0.95"/>
+      <outliers variance="0.909053" lowMild="0" lowSevere="0" highMild="0" highSevere="11"/>
+    </BenchmarkResults>
+    <OverallResult success="true"/>
+  </TestCase>
+  <OverallResults successes="0" failures="0" expectedFailures="0"/>
+  <OverallResultsCases successes="6" failures="0" expectedFailures="0"/>
+</Catch2TestRun>

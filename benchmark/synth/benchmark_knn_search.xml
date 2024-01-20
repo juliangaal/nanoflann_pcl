@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Catch2TestRun name="benchmark_knn_search" rng-seed="3125133675" catch2-version="3.1.1">
+  <TestCase name="knn search 1" tags="[knn]" filename="/home/julian/documents/nanoflann-release/benchmark/benchmark_knn_search.cpp" line="11">
+    <BenchmarkResults name="flann knn search" samples="1000" resamples="100000" iterations="14" clockResolution="17.9479" estimatedDuration="1.8522e+07">
+      <!-- All values in nano seconds -->
+      <mean value="1323.84" lowerBound="1321.6" upperBound="1328.05" ci="0.95"/>
+      <standardDeviation value="48.1185" lowerBound="28.4452" upperBound="73.175" ci="0.95"/>
+      <outliers variance="0.831655" lowMild="0" lowSevere="0" highMild="4" highSevere="9"/>
+    </BenchmarkResults>
+    <BenchmarkResults name="nanoflann knn search" samples="1000" resamples="100000" iterations="145" clockResolution="17.9479" estimatedDuration="1.798e+07">
+      <!-- All values in nano seconds -->
+      <mean value="122.229" lowerBound="122.01" upperBound="122.629" ci="0.95"/>
+      <standardDeviation value="4.63359" lowerBound="2.88435" upperBound="6.9486" ci="0.95"/>
+      <outliers variance="0.843126" lowMild="159" lowSevere="0" highMild="0" highSevere="9"/>
+    </BenchmarkResults>
+    <OverallResult success="true"/>
+  </TestCase>
+  <TestCase name="knn search 10" tags="[knn]" filename="/home/julian/documents/nanoflann-release/benchmark/benchmark_knn_search.cpp" line="34">
+    <BenchmarkResults name="flann knn search" samples="1000" resamples="100000" iterations="11" clockResolution="17.9479" estimatedDuration="1.815e+07">
+      <!-- All values in nano seconds -->
+      <mean value="1657" lowerBound="1650.65" upperBound="1670.16" ci="0.95"/>
+      <standardDeviation value="141.022" lowerBound="83.9236" upperBound="250.909" ci="0.95"/>
+      <outliers variance="0.964983" lowMild="3" lowSevere="0" highMild="5" highSevere="13"/>
+    </BenchmarkResults>
+    <BenchmarkResults name="nanoflann knn search" samples="1000" resamples="100000" iterations="50" clockResolution="17.9479" estimatedDuration="1.8e+07">
+      <!-- All values in nano seconds -->
+      <mean value="359.909" lowerBound="359.489" upperBound="360.858" ci="0.95"/>
+      <standardDeviation value="9.64153" lowerBound="4.37626" upperBound="16.8738" ci="0.95"/>
+      <outliers variance="0.727109" lowMild="8" lowSevere="119" highMild="0" highSevere="227"/>
+    </BenchmarkResults>
+    <OverallResult success="true"/>
+  </TestCase>
+  <TestCase name="knn search 100" tags="[knn]" filename="/home/julian/documents/nanoflann-release/benchmark/benchmark_knn_search.cpp" line="57">
+    <BenchmarkResults name="flann knn search" samples="1000" resamples="100000" iterations="4" clockResolution="17.9479" estimatedDuration="2.0528e+07">
+      <!-- All values in nano seconds -->
+      <mean value="5135.2" lowerBound="5122.26" upperBound="5157.39" ci="0.95"/>
+      <standardDeviation value="266.676" lowerBound="183.395" upperBound="403.846" ci="0.95"/>
+      <outliers variance="0.910149" lowMild="4" lowSevere="0" highMild="3" highSevere="13"/>
+    </BenchmarkResults>
+    <BenchmarkResults name="nanoflann knn search" samples="1000" resamples="100000" iterations="6" clockResolution="17.9479" estimatedDuration="2.1252e+07">
+      <!-- All values in nano seconds -->
+      <mean value="3540.35" lowerBound="3532.76" upperBound="3553.03" ci="0.95"/>
+      <standardDeviation value="154.998" lowerBound="105.555" upperBound="217.997" ci="0.95"/>
+      <outliers variance="0.87763" lowMild="1" lowSevere="0" highMild="14" highSevere="12"/>
+    </BenchmarkResults>
+    <OverallResult success="true"/>
+  </TestCase>
+  <TestCase name="knn search 1000" tags="[knn]" filename="/home/julian/documents/nanoflann-release/benchmark/benchmark_knn_search.cpp" line="80">
+    <BenchmarkResults name="flann knn search" samples="1000" resamples="100000" iterations="1" clockResolution="17.9479" estimatedDuration="1.03692e+08">
+      <!-- All values in nano seconds -->
+      <mean value="103496" lowerBound="103339" upperBound="103737" ci="0.95"/>
+      <standardDeviation value="3087.32" lowerBound="2255.41" upperBound="4227.73" ci="0.95"/>
+      <outliers variance="0.768344" lowMild="1" lowSevere="0" highMild="8" highSevere="37"/>
+    </BenchmarkResults>
+    <BenchmarkResults name="nanoflann knn search" samples="1000" resamples="100000" iterations="1" clockResolution="17.9479" estimatedDuration="2.80672e+08">
+      <!-- All values in nano seconds -->
+      <mean value="273149" lowerBound="272781" upperBound="273640" ci="0.95"/>
+      <standardDeviation value="6819.11" lowerBound="5616.94" upperBound="8844.73" ci="0.95"/>
+      <outliers variance="0.698326" lowMild="0" lowSevere="0" highMild="20" highSevere="150"/>
+    </BenchmarkResults>
+    <OverallResult success="true"/>
+  </TestCase>
+  <OverallResults successes="0" failures="0" expectedFailures="0"/>
+  <OverallResultsCases successes="4" failures="0" expectedFailures="0"/>
+</Catch2TestRun>

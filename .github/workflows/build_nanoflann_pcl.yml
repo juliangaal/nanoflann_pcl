@@ -1,0 +1,28 @@
+name: Build nanoflann_pcl
+
+on:
+  push:
+    branches: [ master, feature/ci ]
+    paths-ignore: '**.md'
+  pull_request:
+    branches: [ master ]
+    paths-ignore: '**.md'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: checkout code
+      uses: actions/checkout@v2
+
+    - name: set up docker
+      uses: docker/setup-buildx-action@v1
+
+    - name: build docker image
+      env:
+        IMAGE_NAME: nanoflann_pcl
+        TAG: latest
+      run: |
+        docker buildx create --use
+        docker buildx build -t $IMAGE_NAME:$TAG --platform linux/amd64,linux/arm64 --build-arg NANOFLANN_VERSION=1.5.0 -f docker/Dockerfile .
